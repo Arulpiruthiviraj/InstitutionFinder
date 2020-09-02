@@ -1,11 +1,13 @@
 const express = require("express");
 const router = express.Router();
 const Institution = require("../models/InstitutionModel");
+const paginatedResults = require("../middleware/PaginatedResults");
 
 // Get all Institutions
-router.get("/institutions", async (req, res) => {
+router.get("/institutions", paginatedResults(Institution), async (req, res) => {
   try {
     const institutions = await Institution.find().sort({ date: -1 });
+    console.log(res.paginatedResults);
     res.json(institutions);
   } catch (err) {
     console.error(err.message);
