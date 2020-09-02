@@ -6,7 +6,7 @@
 
 <img src="./ReadMeImages/main.png" width="100%">
 
-<h2 align="center"><a  href="https://institution-finder.herokuapp.com/">Live Demo</a></h2>
+<h2 align="center"><a  href="https://institution-finder.herokuapp.com/"    target=_blank   >Live Demo</a></h2>
 
 <!-- ### [Contributions are Welcome](https://github.com/silent-lad/VueSolitaire/blob/master/CONTRIBUTING.md) -->
 
