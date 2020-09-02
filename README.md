@@ -72,7 +72,7 @@ npm start  or yarn start
 for backend
 
 ```
-cd client
+cd server
 npm install or yarn install
 npm start  or yarn start
 ```
